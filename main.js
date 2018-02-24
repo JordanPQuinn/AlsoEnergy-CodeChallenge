@@ -1,7 +1,7 @@
 /*****************************************************************************************
 * Part 2
 ****************************************************************************************/
-var employees = [
+const employees = [
         {first: "Amanda", last: "Byron", group: "Sales"},
         {first: "Ye", last: "Xia", group: "Receiving", nameOrder: "reverse"},
         {first: "Miltiades", last: "Crescens", group: "Sales"},

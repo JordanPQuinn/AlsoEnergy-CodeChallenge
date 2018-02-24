@@ -1,3 +1,93 @@
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
 body {
-    background: #3F3939;
+  background: #3F3939;
+}
+
+.logo {
+  height: 125px;
+}
+
+h1 {
+  font-family: 'Bevan', cursive;
+}
+
+.page-title {
+  font-family: 'Bevan', cursive;
+  display: inline-block;
+  margin: 0 0 0 -8px;
+  text-align: left;
+}
+
+.header {
+  background-color: #195297;
+}
+
+.header-accent {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  display: block;
+  margin: -15px 0 0 -20px;
+}
+
+
+.menu, .content {
+  text-align: center;
+  background-color: white;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  height: 80%;
+  width: 100%;
+}
+
+.section-title {
+  color: #FD7F38;
+  margin: 0;
+}
+
+.menu {
+  border-right: 2px solid #195297;
+  width: 20%;
+  min-width: 130px;
+}
+
+.content {
+  width: 79.7%;
+}
+
+footer {
+  margin: 0;
+  background-color: #195297;
+  height: 125px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    flex-flow: row wrap;
+    height: 700px;
+  }
+  .menu, .content {
+    width: 100%;
+    display: block;
+  }
+
+  .content {
+    order: 1;
+    height: 500px;
+    border-bottom: 2px solid #195297;
+  }
+
+  .menu {
+    order: 2;
+    height: 200px;
+  }
 }
