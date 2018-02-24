@@ -17,6 +17,10 @@ h1 {
   font-family: 'Bevan', cursive;
 }
 
+#canvas {
+  margin: auto;
+}
+
 .page-title {
   font-family: 'Bevan', cursive;
   display: inline-block;
